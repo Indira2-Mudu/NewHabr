@@ -1,0 +1,41 @@
+.block{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    left: 50px;
+
+}
+
+.posts{
+    display: block;
+    padding: 15px;
+    justify-content: center;
+    background-color: white;
+    width: 74%;
+
+}
+
+img{
+    width: 100%;
+}
+
+.span4{
+    margin:25px;
+    font-size: 22px;
+    line-height: 2rem;
+}
+
+.H2{
+    text-decoration: none;
+    color: #6589a8;
+
+}
+.find{
+    text-decoration: none;
+    color: #373a44;
+    font-size: 20px;
+    font-weight: bold;
+}
+.findP{
+    color: #606062;
+}
