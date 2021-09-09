@@ -7,12 +7,12 @@ class PostList extends React.Component{
 
 	constructor(props) {
 		super(props);
-
-		this.state = {
+		this.state ={
 			postList:[]
 		}
 
 	}
+
 	componentDidMount() {
 		fetch( 'http://localhost:3001/posts')
 			.then(response => {
@@ -46,4 +46,4 @@ class PostList extends React.Component{
 		)
 	}
 }
-export default PostList
+export default PostList;
